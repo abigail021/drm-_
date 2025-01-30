@@ -5,7 +5,6 @@ import random
 description = '''An example bot to showcase the discord.ext.commands extension
 module.
 
-There are a number of utility commands being showcased here.'''
 
 intents = discord.Intents.default()
 intents.members = True
@@ -60,7 +59,7 @@ async def joined(ctx, member: discord.Member):
 
 @bot.group()
 async def cool(ctx):
-    """Says if a user is cool.
+    """Says if a user is cool."
 
     In reality this just checks if a subcommand is being invoked.
     """
